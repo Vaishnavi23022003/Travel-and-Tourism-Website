@@ -1,0 +1,68 @@
+body {
+  background-image: url("back_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+.outer {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
+.logo {
+  position: relative;
+  left: -50%;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 8px;
+  color: #354555;
+  text-shadow: 2px 2px 8px #e5d4cd;
+}
+.row {
+  padding: 9% 15%;
+}
+.responsive {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+.sign {
+  width: 100%;
+  height: 100%;
+  background-color: #d18d5fdd;
+  padding: 20% 15%;
+  border-radius: 0 10px 10px 0;
+}
+.sign-text {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.btn-sign {
+  margin-top: 2%;
+}
+input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: inherit;
+  color: white;
+  font-size: 18px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+}
+@media (max-width: 990px) {
+  .sign {
+    border-radius: 0 0 10px 10px;
+  }
+  .responsive {
+    border-radius: 10px 10px 0 0;
+  }
+}
+@media (max-width: 550px) {
+  .logo {
+    font-size: 35px;
+  }
+}

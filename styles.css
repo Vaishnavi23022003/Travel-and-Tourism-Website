@@ -1,0 +1,214 @@
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+h3 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 17px;
+}
+
+#top-page {
+  background-image: url("bg-img.png");
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Nav-bar */
+
+.nav-style {
+  padding: 1rem 3.5rem;
+}
+.nav-pos {
+  position: absolute;
+  z-index: 1;
+  width: 100vw;
+}
+
+/* panel */
+.front {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.panel {
+  padding: 10rem 0 10rem 3.5rem;
+}
+.heading {
+  font-family: "DM Serif Display", serif;
+  font-size: 8rem;
+  line-height: 1;
+}
+.btn-panel {
+  margin: 2rem 1rem 0 0;
+}
+
+/* packages */
+.head {
+  margin: 4rem auto 0;
+  text-align: center;
+  color: #a9b0a9;
+  font-size: 32px;
+}
+hr {
+  border-style: none;
+  border-top: 2.5px solid #8db1c8;
+  width: 15%;
+  margin-top: 0.15rem;
+}
+.hor-2 {
+  width: 8%;
+}
+.package-photo {
+  margin: 4rem auto;
+}
+.boxes {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  margin: 20px 60px;
+  box-shadow: 2px 0 15px grey;
+  background-color: black;
+  position: relative;
+}
+.responsive {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding-top: 85%;
+  opacity: 0;
+  transition: opacity 0.5 ease;
+  background-color: black;
+}
+.content:hover {
+  opacity: 0.6;
+}
+.content h1 {
+  font-weight: bold;
+  margin-bottom: 0;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: white;
+  text-decoration-thickness: 0.18rem;
+  line-height: 0.5;
+  font-size: 2rem;
+}
+.content p {
+  font-size: 1.1rem;
+  line-height: 0;
+}
+
+/* articles */
+
+.fest {
+  text-align: left;
+  margin: 4rem;
+}
+.fest p {
+  color: #7f827f;
+  font-size: 16px;
+}
+
+.fest h5 {
+  color: #445763;
+  font-weight: 600;
+}
+.fest h3 {
+  color: #445763;
+  font-weight: 1000;
+}
+.holi {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+}
+.rio {
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-left: 2rem;
+}
+.rio-box {
+  margin-top: 6rem;
+}
+
+/* Contacts */
+
+#contact {
+  background-color: #445763;
+  padding: 7% 8% 4%;
+  color: white;
+}
+.foot-ico {
+  padding: 0.75rem;
+}
+/*-----------------------------------*/
+@media (min-width: 768px) {
+  .panel {
+    background-color: #445763;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 10px;
+  }
+  .sm-content {
+    text-align: right;
+  }
+  .panel {
+    text-align: center;
+    padding: 10rem 0 10rem 0;
+  }
+  .nav-pos {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 6px;
+  }
+  .boxes {
+    width: 150px;
+    height: 180px;
+    margin: 20px 30px;
+  }
+  .fest {
+    text-align: center;
+    margin: 6rem;
+  }
+  .holi {
+    width: 200px;
+    height: 200px;
+    float: none;
+    margin: 6rem auto;
+  }
+  .rio {
+    width: 200px;
+    height: 200px;
+    float: none;
+    margin: 6rem auto;
+  }
+}
